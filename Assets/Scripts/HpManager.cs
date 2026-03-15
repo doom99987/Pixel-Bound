@@ -19,7 +19,7 @@ public class HpManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D)) takeDmg();
+        if (Input.GetKeyDown(KeyCode.C)) takeDmg();
         if (Input.GetKeyDown(KeyCode.H)) heal();
         if (Input.GetKeyDown(KeyCode.U)) upgradeMaxHp();
     }
